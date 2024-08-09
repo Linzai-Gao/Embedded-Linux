@@ -91,7 +91,7 @@ n1,n2d：删除指定范围的行，在**命令行**下操作。
 ### ls命令
 **ls命令功能：查看文件信息**，打开虚拟机进入终端，输入ls就会列出路径所有文件。
 
-![image-20240808112056554](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808112056554.png)
+![image](https://github.com/LinZa11/Embedded-Linux/blob/main/typora-user-images/image-20240808112056554.png)
 
 很多文件隐藏无法查看，需要加上在后面参数
 
