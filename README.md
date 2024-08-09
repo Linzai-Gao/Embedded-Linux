@@ -103,7 +103,7 @@ n1,n2d：删除指定范围的行，在**命令行**下操作。
 
 **`ls -l`：显示文件详细信息**
 
-![image-20240808112255729](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808112255729.png)
+![image](https://github.com/LinZa11/Embedded-Linux/blob/main/typora-user-images/image-20240808112255729.png)
 
 #### 文件类型和权限
 
@@ -175,7 +175,7 @@ cd linzaii/
 
 **小提示，在cd 后写出首字母然后按下tab会自动补全**
 
-![image-20240808114335365](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808114335365.png)
+![image](https://github.com/LinZa11/Embedded-Linux/blob/main/typora-user-images/image-20240808114335365.png)
 
 ```shell
 cd / //进入根目录
@@ -183,13 +183,13 @@ cd ~ //进入家目录
 //在root用户下的家目录和普通用户不同
 ```
 
-![image-20240808115319701](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808115319701.png)
+![image](https://github.com/LinZa11/Embedded-Linux/blob/main/typora-user-images/image-20240808114645335.png)
 
 ### pwd命令
 
 **pwd命令：显示当前路径**
 
-![image-20240808114645335](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808114645335.png)
+![image](https://github.com/LinZa11/Embedded-Linux/blob/main/typora-user-images/image-20240808115319701.png)
 
 ### mkdir命令
 
