@@ -92,7 +92,7 @@ n1,n2d：删除指定范围的行，在**命令行**下操作。
 
 **ls命令功能：查看文件信息**，打开虚拟机进入终端，输入ls就会列出路径所有文件。
 
-![image-20240808112056554](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808112056554.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240808112056554.png)
 
 很多文件隐藏无法查看，需要加上在后面参数
 
@@ -104,7 +104,7 @@ n1,n2d：删除指定范围的行，在**命令行**下操作。
 
 **`ls -l`：显示文件详细信息**
 
-![image-20240808112255729](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808112255729.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240808112255729.png)
 
 #### 文件类型和权限
 
@@ -176,7 +176,7 @@ cd linzaii/
 
 **小提示，在cd 后写出首字母然后按下tab会自动补全**
 
-![image-20240808114335365](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808114335365.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240808114335365.png)
 
 ```shell
 cd / //进入根目录
@@ -184,13 +184,13 @@ cd ~ //进入家目录
 //在root用户下的家目录和普通用户不同
 ```
 
-![image-20240808115319701](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808115319701.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240808114645335.png)
 
 ### 2.3 pwd 命令
 
 **pwd命令：显示当前路径**
 
-![image-20240808114645335](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240808114645335.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240808115319701.png)
 
 ### 2.4 mkdir 命令
 
@@ -201,13 +201,13 @@ mkdir test//在家目录下创建一个文件夹
 mkdir -p//创建多级目录（相对路径）
 ```
 
-![image-20240809134642309](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240809134642309.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240809134642309.png)
 
 ### 2.5 rmdir 命令
 
 **功能：删除一个*空目录***（无法删除有东西的文件夹）
 
-![image-20240809135037132](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240809135037132.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240809135037132.png)
 
 ### 2.6 rm 命令
 
@@ -225,7 +225,7 @@ rm -ri test/
 rm -f //强制删除
 ```
 
-![image-20240816154309836](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816154309836.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816154309836.png)
 
 ### 2.7 touch 命令
 
@@ -258,7 +258,7 @@ cp test1.c test2.c
 //将test1.c复制到test2.c
 ```
 
-![image-20240816155953526](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816155953526.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816155953526.png)
 
 ```shell
 //将文件复制到指定路径
@@ -274,7 +274,7 @@ sudo cp test1.c ..
 //或者直接 su root进入root模式
 ```
 
-![image-20240816160404620](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816160404620.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816160404620.png)
 
 #### 2.10.2复制文件夹(目录)
 
@@ -287,9 +287,9 @@ sudo cp -r test ..
 //将test复制到上一路径
 ```
 
-![image-20240816161045578](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816161045578.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816161045578.png)
 
-![image-20240816161304416](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816161304416.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816161304416.png)
 
 ### 2.11 mv 命令
 
@@ -303,7 +303,7 @@ mv test1.c test3.c
 mv test1 test3
 ```
 
-![image-20240816161927796](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816161927796.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816161927796.png)
 
 #### 2.11.2移动文件
 
@@ -318,7 +318,7 @@ cd ..
 mv lin.c ./test3
 ```
 
-![image-20240816163054113](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816163054113.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816163054113.png)
 
 #### **如果要移动多个文件呢**
 
@@ -335,7 +335,7 @@ cd ..
 ls
 ```
 
-![image-20240816163512571](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816163512571.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816163512571.png)
 
 ### 2.12 tar 命令
 
@@ -366,7 +366,7 @@ tar -czvf test.tar.gzip lin.c
 tar -xzf test.tar.gzip -C ..
 ```
 
-![image-20240816201654024](C:\Users\86136\AppData\Roaming\Typora\typora-user-images\image-20240816201654024.png)
+![image](https://github.com/Linzai-Gao/Embedded-Linux/blob/main/typora-user-images/image-20240816201654024.png)
 
 
 
